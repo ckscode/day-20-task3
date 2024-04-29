@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app {
+  background: url("./assets/appbackground.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#header {
+  font-weight: 600;
+  color: white;
+  font-size: 5em;
+}
+
+#click {
+  border-radius: 0 15px 15px 0;
+  color: white;
+  background-color: rgba(175, 174, 177, 0.534);
+  border: 1px solid white;
+  border-left: none;
+}
+
+#location {
+  border-radius: 15px 0 0 15px;
+  background-color: rgba(175, 174, 177, 0.534);
+  color: white;
+  border: 1px solid white;
+  border-right: none;
+  &:focus {
+    /* Border color when input is selected */
+    box-shadow: none !important; /* Box shadow when input is selected */
+  }
+}
+
+.content {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#deg {
+  font-weight: 600;
+  font-size: 8em;
+  margin-bottom: 0;
+}
+#sky {
+  font-size: 4em;
+  margin-top: -0.8em;
+  letter-spacing: 1rem;
+}
+
+@media screen and (max-width: 580px) {
+  #header {
+    font-size: 3em;
+ 
+  }
+}
