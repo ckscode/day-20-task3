@@ -22,26 +22,25 @@
   <body>
     <section class="app">
       <!-- header -->
-      <h1 id="header" class="text-center mt-4">Weather App</h1>
+      <h1 class="text-center mt-4 header">Weather App</h1>
       <div class="row justify-content-center mx-0">
         <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex m-auto">
           <!-- input element with search button set using rows and columns -->
           <input
-            class="form-control"
-            id="location"
+            class="form-control location"
             type="text"
             name="location"
           />
-          <button class="btn" id="click">
+          <button class="btn click">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
       </div>
       <section class="content">
         <!-- these are the elements where weather will be displayed -->
-        <div id="temp" class="text-center">
-          <div id="deg"></div>
-          <div id="sky"></div>
+        <div class="text-center temp">
+          <div class="deg"></div>
+          <div class="sky"></div>
         </div>
       </section>
     </section>

@@ -1,8 +1,8 @@
 //selecting all the HTML elements with DOM
-const InputItem = document.getElementById("location");
-const Btn = document.getElementById("click");
-const deg = document.getElementById("deg");
-const sky = document.getElementById("sky");
+const InputItem = document.querySelector(".location");
+const Btn = document.querySelector(".click");
+const deg = document.querySelector(".deg");
+const sky = document.querySelector(".sky");
 
 //function to fetch data and set it to the selected HTML elements
 const FetchData = () => {

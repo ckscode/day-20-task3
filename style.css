@@ -15,26 +15,26 @@
   overflow: hidden;
 }
 
-#header {
+.header {
   font-weight: 600;
   color: white;
   font-size: 5em;
 }
 
-#click {
-  border-radius: 0 15px 15px 0;
-  color: white;
-  background-color: rgba(175, 174, 177, 0.534);
-  border: 1px solid white;
-  border-left: none;
+.click {
+  border-radius: 0 15px 15px 0 !important;
+  color: white !important;
+  background-color: rgba(175, 174, 177, 0.534) !important;
+  border: 1px solid white !important;
+  border-left: none !important;
 }
 
-#location {
-  border-radius: 15px 0 0 15px;
-  background-color: rgba(175, 174, 177, 0.534);
-  color: white;
-  border: 1px solid white;
-  border-right: none;
+.location {
+  border-radius: 15px 0 0 15px !important;
+  background-color: rgba(175, 174, 177, 0.534) !important;
+  color: white !important;
+  border: 1px solid white!important;
+  border-right: none !important;
   &:focus {
     /* Border color when input is selected */
     box-shadow: none !important; /* Box shadow when input is selected */
@@ -50,19 +50,19 @@
   color: white;
 }
 
-#deg {
+.deg {
   font-weight: 600;
   font-size: 8em;
   margin-bottom: 0;
 }
-#sky {
+.sky {
   font-size: 4em;
   margin-top: -0.8em;
   letter-spacing: 1rem;
 }
 
 @media screen and (max-width: 580px) {
-  #header {
+  .header {
     font-size: 3em;
  
   }
